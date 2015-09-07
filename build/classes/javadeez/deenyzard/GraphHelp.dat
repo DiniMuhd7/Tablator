@@ -1,0 +1,51 @@
+Help for Graph
+**********************************************************************
+Instructions-
+
+1.The use of the Graph application is to draw the Graph of the function entered by
+   the user.
+
+2. 3 types of graphs can be drawn by this application-
+
+1.)Curves of the type y=f(x), where the user enters f(x) in the corresponding text box.
+ f(x) can be any function of x, but only x, like sinx, cosx, logx, x*sinx, x^2 and so on.
+The variable is case sensitive, so writing X will not give the required graph. 
+Functions of x and y, like f(x)=x*y+3*y^2  are not supported.
+2.)Curves of the type x=f(y), where the user enters x=f(y) in the corresponding text 
+box.f(y) can be any function of y, but only y, like siny, tany, lny, y*cosy, y^3 and so 
+on. The variable is case sensitive, so writing Y will not give the required graph. Like
+before, functions of x and y, like f(x)=x*y+3*y^2  are not supported.
+3.)Parametric curves of the type x=f(t), y=g(t), where x is a function of t, and y is a 
+function of t. t is the only variable allowed, x and y are also not allowed here. Curves
+like circle, ellipse can be drawn in this way, eg. the parametric equation of circle is 
+x=sint, y=cost, parametric equation of ellipse is x=2*sint, y=3*cost, and other 
+numbers can be substituted in the place of 2 and 3, according to the major and minor 
+axes.
+
+3.After entering the required function in the corresponding text box, click on the 
+Draw Graph button to draw the graph.
+
+4.If insufficient data is entered, then an error message is flashed in a lower text box.
+
+5.Operator precedence is present as in Scientific Calculator, so enter the function
+accordingly. All the functions given in the Scientific Calculator are supported, but the
+user has to enter the functions on his own, since no buttons are present. And since 
+all the functions are case sensitive, the user needs to be careful while entering the 
+functions.
+
+6.For the graph to be drawn of a function, some calculation has to take place. If no 
+calculation is present, then no graph gets drawn. eg. to draw the graph of y=x, in the 
+text box of f(x), enter x*1. Similarly for the other 2 types of graphs. To draw the 
+graph of y=6, in the box corresponding to f(y)=, enter 6*1.
+
+7.On moving the mouse pointer on the Graph grid area, the coordinates of the mouse
+with respect to the grid and the scale is displayed in the Coordinates box.
+
+8. To change the Scale of the graph, scroll down the list of scales, and double click 
+on the required scale. The graph is appropriately redrawn. However all graphs cant 
+be drawn in all scales. A scale of 1:1 means that 1 unit of the graph corresponds to 1
+square unit, with the side equal to 1 unit, similarly for scale 5:1, 1 square box in the 
+graph corresponds to 25 square units, with each side equal to 5 units.
+
+9. Here speed has been sacrificed for accuracy, so the graph may get drawn a bit 
+slowly on slower systems, so that the graph looks sharper and crisper!!

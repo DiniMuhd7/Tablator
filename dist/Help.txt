@@ -1,0 +1,125 @@
+Smart Calculator*********************************************************
+A Scientific Calculator Graph Software Developed in Java.
+*********************************************************
+Instructions-
+
+1. 	The minimum screen resolution for viewing the complete calculator and graph 
+	program is 1024x768. With a lower resolution, the complete program cant be viewed.
+
+2.	The number representation in the output display is in terms of integers, but for 
+	very large and small numbers, the exponential format is used to be able to display 
+	a larger range of numbers. Eg. 4.5425E32 represents 4.5425 multiplied by 10 raised 
+	to the power 32. Same goes for negative exponents.
+
+4.	Buttons are provided for all the numbers and functions. 
+	Clicking on the button with the mouse displays
+	the respective number or function in the input display box, 
+	and adds it to the input expression. 
+	Operator precedence is supported, so the complete expression can be entered at once. 
+	To evaluate the expression, press the = button, and the result is displayed
+	in the output display box.
+
+5.	Operator precedence is as follows in increasing order :-
+		•	Addition ( + ), Subtraction ( - )
+		•	Multiplication ( * ), Division ( / )
+		•	To the power ( ^) , sqre, sqrt, cbrt, cube
+		•	sin(), cos(), tan(), arcsin(), arcos(), arctan(), 
+			sinh(), cosh(), tanh()
+		•	Factorial ( ! )
+		•	Parentheses ( )
+			e.g.. 1+2*3 gives the result 7. 1*2+3 gives the result 5.
+
+6. 	To use the functions provided, press the corresponding function button,
+ 	and then the number. e.g.. to calculate the sin of 5 radians, 
+	press the sin button and then press 5, followed by =. 
+	Use brackets wherever applicable. However excess brackets 
+	may also lead to unexpected results!! 
+	So use only the required number of brackets.
+
+7.	To find negative exponents, use 0- the exponent. 
+	Eg. To find 12 raised to the power-5, write 12^(0-5). 
+	Unary – operator is not supported in all cases, 
+	so this is always the better option. 
+	To find the graph of e raised to the power –x, write e^(0-x). 
+
+8.	For operation of many rational numbers simultaneously, 
+	it is advisable to split the expression if the number of operands is large, 
+	say around 15. Overflow might occur in that case. 
+	For integers, a far higher number of operands can be simultaneously operated upon.
+
+9.	The button AC clears both the displays simultaneously, whereas DEL button acts 
+	more like backspace, it deletes one digit in the input display at a time. 
+
+10.	The operator for multiplication is *, it should not be confused with the variable x.
+
+11.	Constant expressions whose value needs to be calculated should not contain the 
+	variable x.
+
+12.	The output is displayed in the output display box, but if you want to use the result 
+	or the output in a further calculation, the button ANS has been provided, it clears 
+	the input display box and displays the answer in the input box itself.
+
+13.	There are 2 modes for entering the angles for trigonometric functions- Radians 
+	and Degrees. The default mode is radians, if you want to change it, the 
+	corresponding radio button can be clicked.
+
+14. 	2 constants- e and pi have been provided. Whenever you want to use either of 
+	them, just click the corresponding button, and they can be used as many times as 
+	you want by clicking repeatedly.
+
+15. 	For memory functions, 3 buttons M, RM, CM have been provided. M calculates
+	the input expression and stores it in memory. No storage in memory takes place if 
+	there is no calculation involved. So if you want to store the number 6 in memory, 
+	write 6*1, then press = button, and press the M button to store it in memory. 
+	RM retrieves the number stored in memory and appends it to the input expression. 
+	CM clears the current memory. The memory gets wiped when the program is closed.
+
+16. 	Under the menu labelled Smart Plus, additional features like Graph, Determinant of 
+	a matrix, Inverse of a matrix, and Solution of simultaneous linear equations has 
+	been provided. Clicking on the MenuItems invokes the corresponding in another 
+	external window. Close the external windows when not required.
+
+17. 	3 different types of graphs can be drawn- y=f(x), x=f(y) and parametric curves 
+	of the type x=f(t),y=g(t). So 3 corresponding text boxes are provided to enter the 
+	functions, and clicking the Draw Graph button draws the graph on the grid area. 
+	Moving the mouse pointer on the grid area displays the coordinates of the current 
+	mouse position depending on the chosen scale. A different number of scales have 
+	been provided to provide varying levels of zoom, but all graphs cant be viewed 
+	equally well in all scales. To enter the function, use the keyboard.Trigonometric, 
+	exponential, logarithmic and other functions applicable in the Calculator are also 
+	applicable in the Graph. Operator precedence is followed as before. 
+	For y=f(x), x is the only variable that can be entered, everything else is a constant. 
+	For x=f(y), y is the only variable, and for x=f(t), y=g(t), t is the only variable.
+	The function, variable names are all case sensitive, use only small letters. 
+	If insufficient data is provided, an error message is displayed in the lowest box. 
+	Equations involving both x and y are not supported. 
+	When not required, close the graph window.
+
+18. 	To find the determinant of a matrix, click on the corresponding MenuItem under
+	Smart Plus Menu. Choose the degree of the matrix. Then enter the elements of the 
+	matrix. Only numbers can be entered, not functions and no element should be empty.
+ 	After filling in all the boxes(elements of the matrix), 
+	click the Button Calculate, and the determinant of the matrix 
+	is displayed in the Result box. To return to main menu, click on Home button.
+
+19. 	To find the Inverse of a matrix, click on the corresponding MenuItem 
+	under Smart Plus Menu. Choose the degree of the matrix, then enter the elements of the 
+	matrix. Only numbers can be entered, and again, no element should be empty. 
+	After filling in all the boxes(elements of the matrix), 
+	click the Button Calculate, and the Inverse of the matrix is displayed 
+	under the Inverse of the Matrix label, element by element. 
+	To return to main menu, click on Home button.
+
+20. 	To find the solutions of simultaneous linear equations, click on the corresponding
+ 	MenuItem under Smart Plus Menu. Choose the number of variables in the equations. 
+	Then enter the coefficients of the variables in the equations, 
+	and no element should be empty, and only numbers can be entered. 
+	After entering the coefficients, click on the button Solve, 
+	and the solution to the system of equations is displayed. 
+	If the solution is displayed as NaN, that means the system of equations has no solution.
+
+21. 	Real time help has been provided, i.e.. when the mouse pointer is moved on the 
+	calculator screen, then the use or function of the component on which the mouse is 
+	pointing, is displayed in a box. By default, real-time help is turned ON. 
+	To turn it off, a Checkbox option in the Help menu is provided. By clicking on the option, 
+	Real-Time Help can be turned ON or OFF.
