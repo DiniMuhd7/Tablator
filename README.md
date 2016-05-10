@@ -1,7 +1,7 @@
-BUILD OUTPUT DESCRIPTION
+BUILD TABLATOR
 ========================
 
-# Tablator-Mac-master
+Tablator-Mac-master
 
 When you build Java application project that has a main class, the IDE
 automatically copies all of the JAR files on the projects classpath to your projects dist/lib folder. The IDE
