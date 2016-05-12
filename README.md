@@ -1,7 +1,7 @@
 BUILD TABLATOR
 ========================
 
-Tablator-Mac-master
+Tablator - A Scientific Calculator Developed In Java.
 
 When you build Java application project that has a main class, the IDE
 automatically copies all of the JAR files on the projects classpath to your projects dist/lib folder. The IDE
